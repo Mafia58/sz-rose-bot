@@ -87,11 +87,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=2, stroke_fill="yellow")
     fname2 = "Logo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @szrosebot🇱🇰")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @akalankanime")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Join with us ~ @sl_bot_zone to use this, {e}')
+   await event.reply(f'Join with us ~  to use this, {e}')
 
 
 @register(pattern="^/wlogo ?(.*)")
@@ -125,11 +125,11 @@ async def logo(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="white")
     fname2 = "Logo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @szrosebot🇱🇰")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @akalankanime🇰")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Join with us ~ @sl_bot_zone to use this, {e}')
+   await event.reply(f'Join with us ~  to use this, {e}')
 
   
 
@@ -164,11 +164,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "Logo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @szrosebot🇱🇰")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @akalankanime🇰")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Join with us ~ @sl_bot_zone to use this, {e}')
+   await event.reply(f'Join with us ~  to use this, {e}')
   
 file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
